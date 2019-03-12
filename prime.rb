@@ -2,7 +2,7 @@
 def prime?(int)
   if int < 1
     return false
-  elsif i > 1
+  elsif int > 1
     for i in 2...(int)
       if (int % i) == 0
         return false
@@ -10,5 +10,4 @@ def prime?(int)
     end
   end
     true
-
 end
