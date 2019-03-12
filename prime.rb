@@ -2,8 +2,8 @@
 def prime?(int)
   for i in 2..(int)
       if (int % i) == 0
-        return true
-      else return false
+        return false
+      else return true
       end
     end
 
